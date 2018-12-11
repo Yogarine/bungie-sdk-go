@@ -1,0 +1,50 @@
+# ContentModelsContentTypeProperty
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Name** | **string** |  | [optional] 
+**ReadableName** | **string** |  | [optional] 
+**Value** | **string** |  | [optional] 
+**PropertyDescription** | **string** |  | [optional] 
+**Localizable** | **bool** |  | [optional] 
+**Fallback** | **bool** |  | [optional] 
+**Enabled** | **bool** |  | [optional] 
+**Order** | **int32** |  | [optional] 
+**Visible** | **bool** |  | [optional] 
+**IsTitle** | **bool** |  | [optional] 
+**Required** | **bool** |  | [optional] 
+**MaxLength** | **int32** |  | [optional] 
+**MaxByteLength** | **int32** |  | [optional] 
+**MaxFileSize** | **int32** |  | [optional] 
+**Regexp** | **string** |  | [optional] 
+**ValidateAs** | **string** |  | [optional] 
+**RssAttribute** | **string** |  | [optional] 
+**VisibleDependency** | **string** |  | [optional] 
+**VisibleOn** | **string** |  | [optional] 
+**Datatype** | [**ContentModelsContentPropertyDataTypeEnum**](Content.Models.ContentPropertyDataTypeEnum.md) |  | [optional] 
+**Attributes** | **map[string]string** |  | [optional] 
+**ChildProperties** | [**[]ContentModelsContentTypeProperty**](Content.Models.ContentTypeProperty.md) |  | [optional] 
+**ContentTypeAllowed** | **string** |  | [optional] 
+**BindToProperty** | **string** |  | [optional] 
+**BoundRegex** | **string** |  | [optional] 
+**RepresentationSelection** | **map[string]string** |  | [optional] 
+**DefaultValues** | [**[]ContentModelsContentTypeDefaultValue**](Content.Models.ContentTypeDefaultValue.md) |  | [optional] 
+**IsExternalAllowed** | **bool** |  | [optional] 
+**PropertySection** | **string** |  | [optional] 
+**Weight** | **int32** |  | [optional] 
+**Entitytype** | **string** |  | [optional] 
+**IsCombo** | **bool** |  | [optional] 
+**SuppressProperty** | **bool** |  | [optional] 
+**LegalContentTypes** | **[]string** |  | [optional] 
+**RepresentationValidationString** | **string** |  | [optional] 
+**MinWidth** | **int32** |  | [optional] 
+**MaxWidth** | **int32** |  | [optional] 
+**MinHeight** | **int32** |  | [optional] 
+**MaxHeight** | **int32** |  | [optional] 
+**IsVideo** | **bool** |  | [optional] 
+**IsImage** | **bool** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
